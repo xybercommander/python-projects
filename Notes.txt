@@ -1,0 +1,36 @@
+zip() function helps in zipping 2 lists and makes them in pairs of tuples
+
+List comprehension:
+    Unique way of quickly making a list
+    An example for using conditional statements in list comprehension:
+        my_list = [x for x in range(0,11) if x%2==0]
+            #This shows all the even nos between 0 to 10
+        my_list = [x if x%2==0 else 'Odd' for x in range(0,11)]
+        my_list = [x*y for x in [2,4,6] for y in [1,10,100]]
+            #[2,20,200,4,40,400,6,60,600]
+
+
+
+Some basic git commands
+    $ touch <file> --> makes a file in the respective directory
+    $ git init --> creates a .git folder where i can store repositories
+    $ git add <file> --> Add files to index
+    $ git status --> check the status of a working tree
+    $ git commit --> Commit changes in index
+    $ git push --> Will take the local repository and push it to the remote
+                    repository
+    $ git pull --> pull the latest changes from the remote repository
+    $ git clone --> Clone repository into a new directory
+    $ git config --global user.name 'Samrat Mukherjee' --> Adds the user
+    $ git config --global user.email 'samratmukherjee.sps@gmail.com' --> Adds the user's email
+    $ git rm --cached <file> --> removes the respective file
+    $ git add *.py --> Adds all the python file to the repository
+    $ git add . --> Adds all the update made to the file
+    $ git commit -m 'changed add.py' --> We can use this to skip add process
+    $ clear --> clears the kernel
+    $ touch .gitignore --> creates a .gitignore file where we can store the unwanted files
+    $ git commit -m 'another change' --> We can use this add the next changes
+    $ git branch <branch name> --> makes a new branch
+    $ git checkout <branch name> --> used to enter the respective branch
+    $ git merge <branch name> --> editor for merging
+    $ git remote add origin <github url>.git --> adds the remote repository
