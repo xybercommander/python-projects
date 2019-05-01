@@ -42,8 +42,8 @@ for i in range(m):
         e_keys += 1
 
 
-o_k_e_c = min(o_keys, e_chests)
-o_c_e_k = min(e_keys, o_chests)
+o_k_e_c = min(o_keys, e_chests) #o_k_e_c = odd keys and even chests
+o_c_e_k = min(e_keys, o_chests) #o_c_e_k = even keys and odd chests
 #We can get the result like this because odd + even is always odd
 
 print(o_c_e_k + o_k_e_c)
