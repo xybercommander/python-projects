@@ -1,5 +1,4 @@
 #url to the problem --> http://codeforces.com/contest/1157/problem/A
-import random
 num = int(input())
 num_list = set()
 #adding the first number to the set
