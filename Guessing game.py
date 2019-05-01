@@ -1,4 +1,10 @@
 from random import *
+import time
+
+print('Welcome to The Guessing Game........')
+time.sleep(2)
+print('Developed by Xyber.......')
+time.sleep(2)
 
 e = True
 
