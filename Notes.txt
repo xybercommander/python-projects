@@ -20,6 +20,7 @@ Some basic git commands
     $ git push --> Will take the local repository and push it to the remote
                     repository
     $ git pull --> pull the latest changes from the remote repository
+        We should use this only in clones
     $ git clone --> Clone repository into a new directory
     $ git config --global user.name 'Samrat Mukherjee' --> Adds the user
     $ git config --global user.email 'samratmukherjee.sps@gmail.com' --> Adds the user's email
@@ -34,3 +35,4 @@ Some basic git commands
     $ git checkout <branch name> --> used to enter the respective branch
     $ git merge <branch name> --> editor for merging
     $ git remote add origin <github url>.git --> adds the remote repository
+    $ git clone <github url>.git --> Clones the respective repository
