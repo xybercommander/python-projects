@@ -36,3 +36,10 @@ Some basic git commands
     $ git merge <branch name> --> editor for merging
     $ git remote add origin <github url>.git --> adds the remote repository
     $ git clone <github url>.git --> Clones the respective repository
+
+
+To iterate in a string --> an example:
+    #to check the word dog in a string
+        def check_dog(string):
+            if 'dog' in string:
+                print(True)
