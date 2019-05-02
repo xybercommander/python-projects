@@ -43,3 +43,11 @@ To iterate in a string --> an example:
         def check_dog(string):
             if 'dog' in string:
                 print(True)
+
+one * always means args and 2 ** always means kwargs
+*args and **kwargs
+#*args
+    def new_func(*args):
+        return sum(args)*0.05
+        #lets you choose as many vars as u want in the function
+        #values of args are stored in tuples
