@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="588acabf-c21f-49cc-9c5e-ff8a17e66dfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/practise.py" beforeDir="false" afterPath="$PROJECT_DIR$/practise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +14,8 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practise.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/sarcasm.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -47,6 +44,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -58,7 +56,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,6 +205,9 @@
           <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sarcasm.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

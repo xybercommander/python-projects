@@ -46,8 +46,20 @@ To iterate in a string --> an example:
 
 one * always means args and 2 ** always means kwargs
 *args and **kwargs
+*args and **kwargs both are positional arguements
 #*args
     def new_func(*args):
         return sum(args)*0.05
-        #lets you choose as many vars as u want in the function
+        #lets you choose as many arguements as u want in the function
         #values of args are stored in tuples
+
+#**kwargs
+    def myfunc(**kwargs):
+        if fruit in kwargs:
+            print('My fruit of choice is {}'.format(kwargs['fruit']))
+        else:
+            print('I did not find any fruit here')
+
+    myfunc(fruit = 'apple')
+    #The dictionary created will be {'fruit' : 'apple'}
+    #kwargs help in creating dictionaries just like args
