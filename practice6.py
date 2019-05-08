@@ -1,11 +1,18 @@
-def spy_game(mylist):#[1,2,4,0,0,7,5]
-    list1 = []
-    for i in mylist:
-        if i == 0 or i == 7:
-            list1.append(i)
-    if list1[0] == 0 and list1[1] == 0 and list1[2] == 7:
-        return True
+def primes(num):
+    count = 0
+    list1 = [2]
+    a = 3
+    if num < 2:
+        return 0
     else:
-        return False
+        while a < num:
+            for i in range(3,a):
+                if a % i == 0:
+                    a += 2
+                    break
+            else:
+                count += 1
+                a+=2
+    return count + 1
 
-print(spy_game([1,7,2,0,4,5,0]))
+print(primes(10))
