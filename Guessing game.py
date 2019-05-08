@@ -10,7 +10,6 @@ e = True
 
 while e == True:
     random_num = randint(1, 101)
-    print(random_num)
     guess = int(input('Enter a number between 1 to 100: '))
     no_of_guesses = 0
     while guess != random_num:
