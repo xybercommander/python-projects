@@ -1,4 +1,4 @@
-def lol(mylist): #[1,2,3,6,7,8,9,1,2] --> 9
+def summer_69(mylist): #[1,2,3,6,7,8,9,1,2] --> 9
     total = 0
     e = True
     for i in mylist:
@@ -11,6 +11,3 @@ def lol(mylist): #[1,2,3,6,7,8,9,1,2] --> 9
             if i == 9:
                 e = True
     return total
-
-
-print(lol([1,2,3,6,7,8,9,1,2]))
