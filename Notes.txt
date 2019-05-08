@@ -63,3 +63,8 @@ one * always means args and 2 ** always means kwargs
     myfunc(fruit = 'apple')
     #The dictionary created will be {'fruit' : 'apple'}
     #kwargs help in creating dictionaries just like args
+
+
+'macdonald'.capitalize() returns 'Macdonald'
+    capitalize function makes the first letter of a string into
+    upper case

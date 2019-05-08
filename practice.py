@@ -1,10 +1,9 @@
-def myfunc(str):
-    output = []
-    for i in range(len(str)):
-        if i%2 == 0:
-            output.append(str[i].upper())
-        else:
-            output.append(str[i].lower())
-    return ''.join(output)
+#Program to reverse the words of a sentence
+#Hello World --> World Hello
 
-print(myfunc('samrat'))
+def master_yoda(text):
+    list1 = text.split()
+    new_sentence = ' '.join(list1[::-1])
+    return new_sentence
+
+print(master_yoda('Hello World'))
